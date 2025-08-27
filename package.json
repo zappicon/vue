@@ -1,0 +1,56 @@
+{
+  "name": "@zappicon/vue",
+  "version": "0.0.1",
+  "description": "Free & premium UI icons library, crafted to simplify workflows for designers, developers and creators.",
+  "main": "dist/index.mjs",
+  "browser": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "icons",
+    "vue",
+    "svg",
+    "components",
+    "zappicon"
+  ],
+  "author": {
+    "name": "Haroun Abidi",
+    "email": "contact@harounabidi.com",
+    "url": "https://harounabidi.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zappicon/vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zappicon/vue/issues"
+  },
+  "homepage": "https://zappicon.com",
+  "scripts": {
+    "clean": "rimraf dist && rimraf src/icons && rimraf src/variants && rimraf src/index.ts",
+    "generate": "npm run clean && tsx scripts/generate.ts",
+    "build": "npm run generate && vite build && vue-tsc"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.20.5",
+    "vite": "^7.1.3",
+    "vue": "^3.5.20",
+    "vue-tsc": "^3.0.6"
+  }
+}
