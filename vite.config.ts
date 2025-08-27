@@ -1,5 +1,5 @@
 import vue from "@vitejs/plugin-vue"
-import { defineConfig } from "vite"
+import { defineConfig } from "vitest/config"
 import { resolve } from "path"
 
 export default defineConfig({
@@ -24,5 +24,14 @@ export default defineConfig({
         },
       ],
     },
+  },
+  test: {
+    globals: true,
+    environment: "jsdom",
+    coverage: {
+      reporter: ["text", "json", "html"],
+      include: ["src"],
+    },
+    include: ["tests/**/*.test.ts"],
   },
 })
