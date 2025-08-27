@@ -21,6 +21,7 @@ const variantRender = computed(() => {
 })
 
 const filteredProps = computed(() => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { xmlns, viewBox, fill, tabindex, width, height, ...rest } = props
   return rest
 })
