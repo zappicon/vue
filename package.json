@@ -24,11 +24,7 @@
     "components",
     "zappicon"
   ],
-  "author": {
-    "name": "Haroun Abidi",
-    "email": "contact@harounabidi.com",
-    "url": "https://harounabidi.com"
-  },
+  "author": "Haroun Abidi (Developed under Zappicon) <contact@harounabidi.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -44,6 +40,7 @@
     "clean": "rimraf dist && rimraf src/icons && rimraf src/variants && rimraf src/index.ts",
     "generate": "npm run clean && tsx scripts/generate.ts",
     "build": "npm run generate && vite build && vue-tsc",
+    "dev": "vite",
     "test": "vitest --watch=false",
     "test:coverage": "vitest --coverage --watch=false",
     "lint": "eslint .",
