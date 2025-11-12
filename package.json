@@ -1,6 +1,6 @@
 {
   "name": "@zappicon/vue",
-  "version": "0.0.5",
+  "version": "1.2.0",
   "description": "Free & premium UI icons library, crafted to simplify workflows for designers, developers and creators.",
   "main": "dist/index.mjs",
   "browser": "dist/index.mjs",

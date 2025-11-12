@@ -1,11 +1,21 @@
+<p align="center">
+  <picture>
+    <source width="460" media="(prefers-color-scheme: dark)" srcset="https://zappicon.com/assets/frameworks/zappicon-vue-dark.svg">
+    <source width="460" media="(prefers-color-scheme: light)" srcset="https://zappicon.com/assets/frameworks/zappicon-vue.svg">
+    <img width="460" alt="zappicon vue plugin" src="https://zappicon.com/assets/frameworks/zappicon-vue.svg">
+  </picture>
+</p>
+
 # Zappicon Vue
 
 [![npm version](https://badge.fury.io/js/%40zappicon%2Fvue.svg)](https://badge.fury.io/js/%40zappicon%2Fvue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://zappicon.com/license)
 
+[![Demo](https://zappicon.com/images/og-image-zappicon.jpg)](https://zappicon.com)
+
 Free & premium UI icons library, crafted to simplify workflows for designers, developers and creators.
 
-- 11,00+ Free icons (220+ Icons × 5 Styles).
+- 2,000+ Free icons (400+ Icons × 5 Styles).
 - 5 Styles Available (Light, Regular, Filled, Duotone, Duotone Line).
 - Unified keyline shapes on a 24×24 px grid.
 - Easy customization of colors, sizes, and styles.
