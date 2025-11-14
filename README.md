@@ -13,7 +13,7 @@
   ·
   <a href="https://zappicon.com/packages">Packages</a>
   ·
-  <a href="https://zappicon.com/updates">License</a>
+  <a href="https://zappicon.com/license">License</a>
   ·
   <a href="https://zappicon.com/contact">Support</a>
 </p>
