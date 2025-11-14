@@ -24,12 +24,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://zappicon.com/license)
 
 
-Zappicon is a Free & premium UI icon library, crafted with care for designers, developers and creators.
+Zappicon is a free and premium UI icon library, crafted with care for designers, developers, and creators.
 
 - 2,000+ Free icons (400+ Icons × 5 Styles).
 - 5 Styles Available (Light, Regular, Filled, Duotone, Duotone Line).
 - Unified keyline shapes on a 24×24 px grid.
-- Easy customization of colors, sizes and styles.
+- Easy customization of colors, sizes, and styles.
 
 >  **Pro Version**  with 23,000+ icons coming soon.
 
